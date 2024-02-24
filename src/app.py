@@ -4,8 +4,8 @@ from sklearn.preprocessing import StandardScaler
 import joblib
 import os
 
-model = load(open("/workspaces/Isa-Streamlit/models/Reg-Lin_5vars.sav", "rb"))
-scaler = joblib.load('/workspaces/Isa-Streamlit/models/scaler_model.joblib')
+model = load(open("Reg-Lin_5vars.sav", "rb"))
+scaler = joblib.load('scaler_model.joblib')
 
 st.title("Calculate your assurance cost")
 
